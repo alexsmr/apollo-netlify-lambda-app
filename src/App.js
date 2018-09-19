@@ -21,7 +21,7 @@ const LambdaDemo = () => (
               }
             `}
         >
-            {({ data }) =><div>A greeting from the server: {data.hello}</div>}
+            {({ data }) =><div>A greeting from the Lambda Graphql: {data.hello}</div>}
         </Query>
     </ApolloProvider>
 );
